@@ -1,0 +1,430 @@
+ *{
+    margin: 0px;
+  }
+
+  nav{
+    width: 100vw;
+    z-index: 100;
+    position : fixed;
+    margin-top: -80px;
+    font-size: 20px;
+  }
+
+  nav ul {
+    font-family: 'Poor Story';
+    background-color: rgba(199, 227, 240, 0.925);
+    list-style-type: none;
+    padding-left: 50px;
+    font-size : 25px;
+  }
+
+  nav ul li {
+    display: inline-block;
+  }
+
+  .home {
+    width: 100px;
+    background-image: url('./titleImg.PNG');
+    background-size: 90%;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    position: relative;
+  }
+
+  .home a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 16px;
+  }
+
+  .dropDown {
+    position: relative;
+  }
+
+  .dropDownMenu {
+    color: black;
+    padding:16px;
+    font-size : 23px;
+    cursor: pointer;
+  }
+
+  .dropDownContent {
+    position: absolute;
+    background-color: rgba(167, 167, 167, 0.774);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+
+  .dropDownContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size : 19px;
+  }   
+
+  .dropDownContent {
+    display: none;
+  }
+
+  .dropDownMenu:hover:not(.home){
+    background-color: rgba(170, 197, 209, 0.925);
+    color: black;
+  }
+
+  .dropDown:hover .dropDownContent {
+    display: block;
+  }
+
+  .dropDownContent a:hover {background-color: rgba(255, 255, 255, 0.774)}
+
+  @font-face {
+    font-family: 'Indie Flower';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/indieflower/v17/m8JVjfNVeKWVnh3QMuKkFcZVaUuH.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  header{
+    font-family: 'Indie Flower';
+    background-color: rgba(214, 209, 209, 0.459);
+    text-align: center;
+    line-height: 1.5em;
+    padding : 50px 0px;
+    margin : 60px 0px 0px 0px;
+    width : 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .headerTitle{
+    width: 1500px;
+  }
+
+  .mainTitle{
+    display: inline-block;
+    float: left;
+    margin-top: 50px;
+    margin-left : 180px;
+    position: relative;
+    z-index: 5;
+  }
+
+  .mainTitle h1{
+    padding : 50px 0px;
+    font-size: 105px;
+  }
+
+  .move span {
+    color: black;
+    display: inline-block;
+    margin: 0 -.05em;
+    animation: moving .8s 1;
+  }
+  
+  .move span:nth-child(2) {
+    animation-delay: .1s;
+  }
+  
+  .move span:nth-child(3) {
+    animation-delay: .2s;
+  }
+  
+  .move span:nth-child(4) {
+    animation-delay: .3s;
+  }
+  
+  .move span:nth-child(5) {
+    animation-delay: .4s;
+    color: rgb(111, 175, 204);
+  }
+  
+  .move2{
+      margin-left : 130px;
+  }
+
+  .move2 span {
+    display: inline-block;
+    margin: 0 -.05em;
+    animation: moving .8s 1;
+    animation-delay: .4s;
+    color: rgb(111, 175, 204);
+  }
+  
+  .move2 span:nth-child(2) {
+    animation-delay: .5s;
+    color: black;
+  }
+  
+  .move2 span:nth-child(3) {
+    animation-delay: .6s;
+    color: black;
+  }
+  
+  .move2 span:nth-child(4) {
+    animation-delay: .7s;
+    color: black;
+  }
+
+  @keyframes moving {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+  }
+
+  .titleContent{
+    font-family: 'Poor Story';
+    font-size: 30px;
+    color: rgb(97, 95, 95);
+    margin-top : 10px;
+    margin-left: 80px;
+    letter-spacing: 10px;
+  }
+
+  .backGroundImgWrapper{
+    margin-top: 150px;
+  }
+
+  .titleBG{
+    height: 500px;
+    width: 500px;
+    background-image: url("./titleBackGround2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: -550px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+  }
+
+  .titleBG2{
+    height: 500px;
+    width: 800px;
+    background-image: url("./titleBackGround.png");
+    background-repeat: repeat-x;
+    animation: moveBG 15s linear infinite;
+    background-size: 270%;
+    margin: -410px auto 0px;
+    border-radius: 200px;
+    position: relative;
+    z-index: 2;
+  }
+
+  @keyframes moveBG{
+      0% {
+          background-position: 0 center;
+      }
+      100%{
+        background-position: -1000px center;
+      }
+  }
+
+  .car{
+    width: 350px;
+    height: 200px;
+    margin : -240px auto 0;
+    background-image: url(./car.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    animation: movingCar 1s infinite;
+    position: relative;
+    z-index: 3;
+  }
+
+  @keyframes movingCar {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  .contentWrapper{
+    justify-content: center;
+  }
+
+  .content1{
+    height: 800px;
+    width: 1300px;
+    margin : 100px auto;
+  }
+
+  .clearfix:after {
+    content: ''; 
+    display: block; 
+    clear: both; 
+    float: none; 
+  }
+
+  .title { 
+    font-family: 'Poor Story';
+    margin-bottom: 0;
+    text-align: center; 
+    font-size: 45px; 
+    color: #333; 
+  }
+
+  #container { 
+    width: 1000px;
+    margin: 70px auto;
+  }
+
+  .slideWrap { 
+    position: relative; 
+    width: 1000px; 
+    margin: auto; 
+    padding-bottom: 30px; 
+  }
+
+  .slideBox { 
+    width: 100%; 
+    margin: auto; 
+    overflow-x: hidden; 
+  }
+  .slideContent { 
+    display: table; 
+    float: left; 
+    width: 1000px; 
+    height: 600px; 
+  }
+
+  .slideContent > p { 
+    display: table-cell; 
+    vertical-align:bottom; 
+    text-align: end; 
+    font-size: 30px; 
+    font-weight: bold; 
+    color: rgba(255, 255, 255, 0.767); 
+  }
+
+  .slideContent.slide01 { 
+    background-image: url(./pic/1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .slideContent.slide02 { 
+    background-image: url(./pic/2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .slideContent.slide03 { 
+  }
+
+  .slideContent.slide04 { 
+  }
+
+  .slideContent.slide05 { 
+  }
+
+  .slideContent.slide06 { 
+  }
+
+  .slideContent.slide07 { 
+  }
+
+  .slideContent.slide08 { 
+  }
+
+  .slideContent.slide09 { 
+  }
+
+  .slideContent.slide10 { 
+  }
+
+  .slideContent.slide11 { 
+  }
+
+  .slideContent.slide12 { 
+  }
+  
+  .slideContent.slide13 { 
+  }
+  
+  .slideContent.slide14 { 
+  }
+  
+  .slideContent.slide15 { 
+  }
+
+  .slideContent.slide16 { 
+  }
+
+  .slideBtnBox > button { 
+    position: absolute; 
+    top: 50%; 
+    margin-top: -45px; 
+    width: 60px; 
+    height: 60px; 
+    font-size: 16px; 
+    color: #999; 
+    background: none; 
+    border: 1px solid #ddd; 
+    cursor: pointer; 
+  }
+
+  .slideBtnBox > .slideBtnPrev { 
+    left: -100px; 
+  }
+
+  .slideBtnBox > .slideBtnNext { 
+    right: -100px; 
+  }
+
+  .slidePagination { 
+    position: absolute; 
+    left: 50%; 
+    bottom: 0; 
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+    transform: translateX(-50%); 
+  }
+
+  .slidePagination .dot { 
+    display: inline-block; 
+    width: 15px; 
+    height: 15px; 
+    margin: 0 5px; 
+    overflow: hidden; 
+    background: #ddd; 
+    border-radius: 50%; 
+    transition: 0.3s; 
+  }
+
+  .slidePagination .dot.dot_active { 
+    background: #333; 
+  }
+
+  .slidePagination .dot a { 
+    display: block; 
+    width: 100%; 
+    height: 100%; 
+  }
+  
+  .content2{
+    height: 800px;
+    width: 1300px;
+    margin : 100px auto;
+  }
+
+  footer{
+    background-color: rgb(182, 175, 175);
+    padding : 30px 0px;
+    line-height: 30px;
+    font-size: 15px;
+  }
+
+  address ul li{
+    list-style-type: none;
+  }

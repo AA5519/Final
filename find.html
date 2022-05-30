@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Wish Rist</title>
+    <meta charset="UTF-8" />
+    <link href="find.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&family=Gamja+Flower&family=Poor+Story&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+        <ul>
+          <li class="home">
+            <a href="index.html">
+              <img>
+            </a>
+          </li>
+          <li class="dropDown">
+            <div class="dropDownMenu">사이트 소개</div>
+            <div class="dropDownContent">
+              <a href="introduce.html">웹사이트 소개</a>
+              <a href="introduce.html#content2">특별한 점</a>
+              <a href="introduce.html#content3">기대 효과</a>
+            </div>
+          </li>
+          <li class="dropDown">
+            <div class="dropDownMenu">이용 안내</div>
+            <div class="dropDownContent">
+              <a href="howToUse.html">이용 안내</a>
+            </div>
+          </li>
+          <li class="dropDown">
+            <div class="dropDownMenu">휴게소 찾기</div>
+            <div class="dropDownContent">
+              <a href="find.html#content1">휴게소 찾기</a>
+            </div>
+          </li>
+          <li class="dropDown">
+            <div class="dropDownMenu">기타</div>
+            <div class="dropDownContent">
+              <a href="etc.html">정보 제공처</a>
+              <a href="etc.html#">제작자</a>
+            </div>
+          </li>
+        </ul>
+    </nav>
+    <header>
+       <p>휴게소 찾기</p>
+    </header>
+    <div class="mainWrapper">
+      <div class="sideBarWrapper">
+        <div class="sideBar">
+          <ul>
+            <li><a class="sideBarTitle" href="find.html">휴게소 찾기</a></li>
+            <li><a href="#content1">휴게소 찾기</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="contentWrapper">
+        <div id="content1" class="content" >
+            <h1 class="title">휴게소 찾기</h1>
+            <div class="checkBox">
+                <form>
+                    <div class="checkBoxTitle">상세정보 선택</div>
+                    <input type='checkbox' name='restType' value='경 정비소' /> 경 정비소 
+                    <input type='checkbox' name='restType' value='수면실' /> 수면실
+                    <input type='checkbox' name='restType' value='장애인 편의시설' /> 장애인 편의시설
+                    <br><br>
+                    <input type='checkbox' name='restType' value='화물 휴게소' /> 화물 휴게소
+                    <input type='checkbox' name='restType' value='샤워실' /> 샤워실
+                    <input type='checkbox' name='restType' value='반려동물 놀이터' /> 반려동물 놀이터
+                    <br><br>
+                    <input type='submit' value='검색' class="submitBtn">
+                </form>
+            </div>
+            <div class="mapBox">
+                <div class="map"></div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>
+        <address>
+          <ul>
+            <li> Creator - 백도은, 장지완, 황희용, 안은주</li>
+            <li> Copyright © 2021 Wish Rist All rights reserved. </li>
+          </ul>
+        </address>
+      </p>
+    </footer>    
+    <script src="find.js"></script>
+  </body>
+</html>
