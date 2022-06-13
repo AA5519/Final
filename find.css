@@ -92,21 +92,16 @@
   }
   
   header{
-    /* background-image: url(./pic/h1.jpeg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center; */
     height: 270px;
     margin-top: 80px;
-    background-color: aliceblue;
   }
   
   header p{
+    font-family : 'Hi Melody';
     text-align: center;
     color: black;
     font-size: 80px;
     font-weight: bold;
-    /* text-shadow: 6px 6px 6px white; */
     vertical-align:middle;
     padding-top: 65px;
   }
@@ -118,75 +113,12 @@
     margin : 40px 0px;
   }
   
-  .sideBarWrapper{
-    margin-right: -80px;
-  }
-  
-  .sideBar{
-    width: 200px;
-    height: 500px;
-    font-family: 'Poor Story';
-  }
-  
-  .sideBar ul{
-    position: fixed;
-    list-style-type: none;
-  }
-  
-  .sideBar ul li{
-    width: 200px;
-    height: 40px;
-    margin-left: -150px;
-    text-align: center;
-    padding-top: 20px;
-    font-size: 20px;
-    border-radius: 30px 30px 0px 0px;
-    background-color: rgba(199, 227, 240, 0.925);
-  }
-  
-  .sideBar ul li:nth-child(2){
-    border-radius:0px;
-    background-color: rgba(228, 228, 228, 0.651);
-    border-radius: 0px 0px 15px 15px;
-  }
-  
-  .sideBar ul li:nth-child(3){
-    border-radius:0px;
-    background-color: rgba(228, 228, 228, 0.651);
-    border-bottom: 1px solid gray;
-  }
-  
-  .sideBar ul li:nth-child(4) {
-    border-radius: 0px 0px 15px 30px;
-    background-color: rgba(228, 228, 228, 0.651);
-  }
-  
-  .sideBar ul li:nth-child(2):hover{
-    background-color : rgba(167, 167, 167, 0.651);
-  }
-  
-  .sideBar ul li a:hover{
-    color: white;
-  }
-  
-  .sideBar ul li a{
-    text-decoration: none;
-    color: black;
-    font-size: 22px;
-  }
-  
-  .sideBarTitle{
-    font-weight: bold; 
-    font-size: 30px;
-  }
-  
   .contentWrapper{
     justify-content: center;
   }
   
   .content{
     width: 1200px;
-    border-left : 3px solid rgb(131, 131, 131);
     padding-top: 80px;
   }
   
