@@ -266,7 +266,7 @@
   }
 
   .title { 
-    font-family: 'Poor Story';
+    font-family: 'Hi Melody';
     margin-bottom: 0;
     text-align: center; 
     font-size: 45px; 
@@ -319,21 +319,39 @@
   }
 
   .slideContent.slide03 { 
+    background-image: url(./pic/3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
 
   .slideContent.slide04 { 
+    background-image: url(./pic/4.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
 
   .slideContent.slide05 { 
+    background-image: url(./pic/5.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
 
   .slideContent.slide06 { 
+    background-image: url(./pic/6.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
 
   .slideContent.slide07 { 
+    background-image: url(./pic/7.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
 
   .slideContent.slide08 { 
+    background-image: url(./pic/8.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
 
   .slideContent.slide09 { 
