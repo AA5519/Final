@@ -4,7 +4,7 @@
     <title>Wish Rist</title>
     <meta charset="UTF-8" />
     <link href="find.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&family=Gamja+Flower&family=Poor+Story&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&family=Gamja+Flower&family=Hi+Melody&family=Poor+Story&display=swap" rel="stylesheet">
   </head>
   <body>
     <nav>
@@ -31,14 +31,14 @@
           <li class="dropDown">
             <div class="dropDownMenu">휴게소 찾기</div>
             <div class="dropDownContent">
-              <a href="find.html#content1">휴게소 찾기</a>
+              <a href="find.html">휴게소 찾기</a>
             </div>
           </li>
           <li class="dropDown">
             <div class="dropDownMenu">기타</div>
             <div class="dropDownContent">
               <a href="etc.html">정보 제공처</a>
-              <a href="etc.html#">제작자</a>
+              <a href="etc.html#content2">제작자</a>
             </div>
           </li>
         </ul>
@@ -47,33 +47,27 @@
        <p>휴게소 찾기</p>
     </header>
     <div class="mainWrapper">
-      <div class="sideBarWrapper">
-        <div class="sideBar">
-          <ul>
-            <li><a class="sideBarTitle" href="find.html">휴게소 찾기</a></li>
-            <li><a href="#content1">휴게소 찾기</a></li>
-          </ul>
-        </div>
-      </div>
       <div class="contentWrapper">
         <div id="content1" class="content" >
-            <h1 class="title">휴게소 찾기</h1>
+            <h1 class="title"></h1>
             <div class="checkBox">
                 <form>
                     <div class="checkBoxTitle">상세정보 선택</div>
-                    <input type='checkbox' name='restType' value='경 정비소' /> 경 정비소 
-                    <input type='checkbox' name='restType' value='수면실' /> 수면실
-                    <input type='checkbox' name='restType' value='장애인 편의시설' /> 장애인 편의시설
+                    <input type='checkbox' name='restType' value='1' /> 경 정비소 
+                    <input type='checkbox' name='restType' value='2' /> 수면실
+                    <input type='checkbox' name='restType' value='3' /> 장애인 편의시설
                     <br><br>
-                    <input type='checkbox' name='restType' value='화물 휴게소' /> 화물 휴게소
-                    <input type='checkbox' name='restType' value='샤워실' /> 샤워실
-                    <input type='checkbox' name='restType' value='반려동물 놀이터' /> 반려동물 놀이터
+                    <input type='checkbox' name='restType' value='4' /> 화물 휴게소
+                    <input type='checkbox' name='restType' value='5' /> 샤워실
+                    <input type='checkbox' name='restType' value='6' /> 반려동물 놀이터
                     <br><br>
                     <input type='submit' value='검색' class="submitBtn">
                 </form>
             </div>
             <div class="mapBox">
-                <div class="map"></div>
+                <div class="map">
+                  <inframe src=""></inframe>
+                </div>
             </div>
         </div>
       </div>
