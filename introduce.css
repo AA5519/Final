@@ -3,11 +3,16 @@
   scroll-behavior: smooth;
 }
 
+body{
+  
+  background-color: rgb(218, 229, 238);
+}
+
 nav{
   width: 100vw;
   z-index: 100;
   position : fixed;
-  margin-top: -100px;
+  margin-top: -150px;
   font-size: 20px;
 }
 
@@ -92,118 +97,160 @@ nav ul li {
 }
 
 header{
-  /* background-image: url(./pic/h1.jpeg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center; */
   height: 270px;
-  margin-top: 80px;
-  background-color: aliceblue;
+  margin-top: 130px;
+  position: relative;
 }
 
 header p{
+  font-family : 'Hi Melody';
   text-align: center;
   color: black;
-  font-size: 80px;
+  font-size: 130px;
   font-weight: bold;
-  /* text-shadow: 6px 6px 6px white; */
   vertical-align:middle;
   padding-top: 65px;
+  position: relative;
+  z-index: 10;
+  padding-top: 150px;
 }
+
+.xBox{
+  display: flex;
+  justify-content: center;
+  margin-top: -330px;
+  margin-left: 650px;
+  z-index: 2;
+}
+
+.x1{
+  width: 200px;
+  height: 500px;
+  background-color: white;
+  border-radius: 700px 400px;
+  transform: rotate(45deg);
+}
+
+.x2{
+  width: 200px;
+  height: 500px;
+  background-color: white;
+  border-radius: 400px 700px;
+  transform: rotate(-45deg);
+  margin-left: -200px;
+}
+
 
 .mainWrapper{
   display: flex;
   justify-content: center;
   position: relative;
-  margin : 40px auto;
 }
 
-.sideBarWrapper{
-  margin-right: -80px;
+.xBox2{
+  display: flex;
+  margin-top: -20px;
 }
 
-.sideBar{
-  width: 200px;
-  height: 500px;
-  font-family: 'Poor Story';
+.innerXWrapper{
+  display: flex;
+  width: 320px;
+  margin-left: -22px;
+}  
+
+.x3{
+  width: 40px;
+  height: 100px;
+  background-color: black;
+  border-radius: 700px 400px;
+  transform: rotate(45deg);
 }
 
-.sideBar ul{
-  position: fixed;
-  list-style-type: none;
-}
-
-.sideBar ul li{
-  width: 200px;
-  height: 40px;
-  margin-left: -150px;
-  text-align: center;
-  padding-top: 20px;
-  font-size: 20px;
-  border-radius: 30px 30px 0px 0px;
-  background-color: rgba(199, 227, 240, 0.925);
-}
-
-.sideBar ul li:nth-child(2){
-  border-radius:0px;
-  background-color: rgba(228, 228, 228, 0.651);
-  border-bottom: 1px solid gray;
-}
-
-.sideBar ul li:nth-child(3){
-  border-radius:0px;
-  background-color: rgba(228, 228, 228, 0.651);
-  border-bottom: 1px solid gray;
-}
-
-.sideBar ul li:nth-child(4) {
-  border-radius: 0px 0px 15px 15px;
-  background-color: rgba(228, 228, 228, 0.651);
-}
-
-.sideBar ul li:nth-child(2):hover{
-  background-color : rgba(167, 167, 167, 0.651);
-}
-
-.sideBar ul li:nth-child(3):hover{
-  background-color : rgba(167, 167, 167, 0.651);
-}
-
-.sideBar ul li:nth-child(4):hover{
-  background-color : rgba(167, 167, 167, 0.651);
-}
-
-.sideBar ul li a:hover{
-  color: white;
-}
-
-.sideBar ul li a{
-  text-decoration: none;
-  color: black;
-  font-size: 22px;
-}
-
-.sideBarTitle{
-  font-weight: bold; 
-  font-size: 30px;
+.x4{
+  width: 40px;
+  height: 100px;
+  background-color: black;
+  border-radius: 400px 700px;
+  transform: rotate(-45deg);
+  margin-left: -40px;
 }
 
 .contentWrapper{
+  width:1200px;
   justify-content: center;
+  border-left: 3px solid black;
+  margin : 250px auto 50px;
 }
 
 .content{
   height: 800px;
   width:1200px;
-  border-left : 3px solid rgb(131, 131, 131);
   padding-top: 80px;
 }
 
+.contentWrapper p{
+  font-size: 25px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+#content1{
+  padding-top: 50px;
+  line-height: 40px;
+}
+
 .title { 
+  font-family: 'Hi Melody';
   margin-bottom: 0;
   text-align: center; 
-  font-size: 30px; 
+  font-size: 50px; 
   color: #333; 
+}
+
+.innerContentBox{
+  display: flex;
+  justify-content: center;
+}
+
+.innerContentBox img{
+  margin: 180px 30px 20px;
+  border-radius: 50px;
+}
+
+.innerContentBox img:hover{
+  transform: scale(115%);
+  transition: transform .5s;
+  box-shadow: 5px 5px 10px darkgray;
+}
+
+#content3{
+  padding-top: 50px;
+  line-height: 40px;
+  height: 700px;
+}
+
+.innerContentBox2{
+  display: flex;
+  justify-content: center;
+}
+
+.innerContentBox2 img{
+  width: 300px;
+  margin : 80px 20px
+}
+
+#effect01{
+  margin-top: 280px;
+  margin-right: -130px;
+}
+
+#effect02{
+  height: 300px;
+}
+
+#effect03{
+  margin-top: 280px;
+  margin-left: -130px;
 }
 
 footer{
