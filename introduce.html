@@ -4,7 +4,7 @@
     <title>Wish Rist</title>
     <meta charset="UTF-8" />
     <link href="introduce.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&family=Gamja+Flower&family=Poor+Story&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&family=Gamja+Flower&family=Hi+Melody&family=Poor+Story&display=swap" rel="stylesheet">
   </head>
   <body>
     <nav>
@@ -31,50 +31,59 @@
         <li class="dropDown">
           <div class="dropDownMenu">휴게소 찾기</div>
           <div class="dropDownContent">
-            <a href="find.html#content1">휴게소 찾기</a>
+            <a href="find.html">휴게소 찾기</a>
           </div>
         </li>
         <li class="dropDown">
           <div class="dropDownMenu">기타</div>
           <div class="dropDownContent">
             <a href="etc.html">정보 제공처</a>
-            <a href="etc.html#">제작자</a>
+            <a href="etc.html#content2">제작자</a>
           </div>
         </li>
       </ul>
     </nav>
     <header>
       <p>사이트 소개</p>
-    </header>
-
-    <div class="mainWrapper">
-      <div class="sideBarWrapper">
-        <div class="sideBar">
-          <ul>
-            <li><a class="sideBarTitle" href="introduce.html">사이트 소개</a></li>
-            <li><a href="#content1">웹사이트 소개</a></li>
-            <li><a href="#content2">특별한 점</a></li>
-            <li><a href="#content3">기대 효과</a></li>
-          </ul>
-        </div>
+      <div class="xBox">
+        <div class="x1"></div>
+        <div class="x2"></div>
       </div>
+    </header>
+    <div class="mainWrapper">
       <div class="contentWrapper">
+        <div class="xBox2">
+          <div class="innerXWrapper">
+            <div class="x3"></div>
+            <div class="x4"></div>
+          </div>
+        </div> 
         <div id="content1" class="content" >
-        <h1 class="title">웹사이트 소개</h1>
+          <h1 class="title">웹사이트 소개</h1>
+          <p>Wish Rist는 원하는 휴게시설을 갖춘 휴게소를<br>찾을 수 있는 웹 페이지 입니다.<br><br>
+            코로나가 끝나가면서<br>친구, 가족 단위로 놀러가는 여행객들이 많이 늘어나고 있었습니다.<br><br> 
+            저희는 여행객들이 여행을 가기위해 들리는 휴게소가<br> 어디에 위치하고 무슨 편의시설을 제공하는지<br>
+            일정을 짤 때 알 수 있으면 좋겠다고 생각하였고,<br><br>
+            따라서 사전에 손쉽게 휴게소의 위치를 접근할 수 있는<br>사이트를 만들고자 하여 WishRist가 만들어졌습니다.</p>
         </div>
         <div id="content2" class="content">
-        <h1 class="title">Wish Rist만의 특별한 점</h1>
-
+          <h1 class="title">Wish Rist만의 특별한 점</h1>
+          <div class="innerContentBox">
+            <img src="./pic/special01.png">
+            <img src="./pic/special02.png">
+            <img src="./pic/special03.png">
+          </div>
         </div>
         <div id="content3" class="content">
-        <h1 class="title">기대 효과</h1>
+          <h1 class="title">기대 효과</h1>
+          <div class="innerContentBox2 scrollSpy ">
+            <img src="./pic/effect01.png" id="effect01">
+            <img src="./pic/effect02.png" id="effect02" >
+            <img src="./pic/effect03.png" id="effect03">
+          </div>
         </div>
       </div>
     </div>
-
-    
-   
-
     <footer>
       <p>
         <address>
@@ -84,7 +93,6 @@
           </ul>
         </address>
       </p>
-    </footer>    
-    <script src=".js"></script>
+    </footer> 
   </body>
 </html>
