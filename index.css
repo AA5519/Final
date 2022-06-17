@@ -355,27 +355,51 @@
   }
 
   .slideContent.slide09 { 
+    background-image: url(./pic/9.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
 
   .slideContent.slide10 { 
+    background-image: url(./pic/10.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
 
   .slideContent.slide11 { 
+    background-image: url(./pic/11.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
 
   .slideContent.slide12 { 
+    background-image: url(./pic/12.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
   
   .slideContent.slide13 { 
+    background-image: url(./pic/13.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
   
   .slideContent.slide14 { 
+    background-image: url(./pic/14.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
   
   .slideContent.slide15 { 
+    background-image: url(./pic/15.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
 
   .slideContent.slide16 { 
+    background-image: url(./pic/16.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
 
   .slideBtnBox > button { 
